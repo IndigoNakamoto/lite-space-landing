@@ -14,9 +14,39 @@ export default function Home() {
 				<title>Lite.space - Litecoin Mempool Explorer</title>
 				<meta
 					name="description"
-					content="A Litecoin Mempool Explorer, a fork from Mempool.space"
+					content="Lite.space, a powerful Litecoin Mempool Explorer, inspired by Mempool.space. Monitor and analyze the Litecoin network with ease."
 				/>
-				<link rel="icon" href="/favicon.png" />
+
+				{/* Facebook Open Graph */}
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://lite.space" />
+				<meta
+					property="og:title"
+					content="Lite.space - Litecoin Mempool Explorer"
+				/>
+				<meta
+					property="og:description"
+					content="Lite.space, a powerful Litecoin Mempool Explorer, inspired by Mempool.space. Monitor and analyze the Litecoin network with ease."
+				/>
+				<meta property="og:image" content="https://lite.space/your-image.png" />
+
+				{/* Twitter Card */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:url" content="https://lite.space" />
+				<meta
+					name="twitter:title"
+					content="Lite.space - Litecoin Mempool Explorer"
+				/>
+				<meta
+					name="twitter:description"
+					content="Lite.space, a powerful Litecoin Mempool Explorer, inspired by Mempool.space. Monitor and analyze the Litecoin network with ease."
+				/>
+				<meta
+					name="twitter:image"
+					content="https://lite.space/your-image.png"
+				/>
+
+				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
 			<div className={styles.content}>
