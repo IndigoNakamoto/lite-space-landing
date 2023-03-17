@@ -68,7 +68,7 @@ export default function Home() {
 							<FontAwesomeIcon icon={faTwitter} size="2x" />
 						</a>
 						<a
-							href="https://discord.gg/HPn3FpskHW"
+							href="https://discord.gg/EksJTdeRTS"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
