@@ -1,21 +1,25 @@
 .main {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  width: 100%;
+}
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
 }
 
+
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .description a {
@@ -103,6 +107,27 @@
   filter: blur(45px);
   transform: translateZ(0);
 }
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+
+
 
 .logo,
 .thirteen {
@@ -275,4 +300,29 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.socialIcons a {
+  color: inherit;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: white;
 }

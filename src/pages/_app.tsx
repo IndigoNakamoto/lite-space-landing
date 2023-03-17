@@ -1,6 +1,12 @@
-import '<prefix>/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "../styles/globals.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+// Make sure autoAddCss is set to false to prevent FontAwesome from automatically adding CSS
+config.autoAddCss = false;
+
+function MyApp({ Component, pageProps }) {
+	return <Component {...pageProps} />;
 }
+
+export default MyApp;
