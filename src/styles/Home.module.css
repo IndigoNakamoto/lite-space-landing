@@ -40,6 +40,33 @@
 
 }
 
+/* For desktop view */
+@media (min-width: 768px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  .p {
+    font-size: 1.5rem;
+  }
+}
+
+/* For mobile view */
+@media (max-width: 767px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .p {
+    font-size: 1.25rem;
+  }
+
+  .p2 {
+    font-size: .85rem;
+  }
+}
+
+
 .socialIcons {
   display: flex;
   gap: 3rem;
